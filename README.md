@@ -17,6 +17,10 @@ Lots. The higher priority ones at this early stage are primarily centered around
 * More objective testing. In order to expand, must be able to experiment with clear baselines. So far, it's been somewhat qualitative out of necessity.
 * Clean and organize the code, especially the relationship of the model code to the process code. Once things fit together nicer / are more automated, it will help expanding be much swifter.
 
+![](img/tbh8.png)
+
+Stage and character detection. With more data preparation, higher confidence will be reached, and more entities can be detected (e.g. the model hadn't been trained to find Falco yet in the above image); not to mention other useful types of data like stock count, game time, player name, character position, etc.
+
 ## References
 * [SmashSight](https://smashsight.com/welcome-to-smashsight/) as mentioned earlier
 * [jpnaterer/smashscan](https://github.com/jpnaterer/smashscan) did a similar, dope project using [darkflow](https://github.com/thtrieu/darkflow) that's much more built out and inspired this one
